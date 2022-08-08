@@ -24,15 +24,15 @@
 
 package me.zhengjin.common.cors.autoconfig
 
+import org.springframework.boot.autoconfigure.AutoConfiguration
 import org.springframework.boot.context.properties.EnableConfigurationProperties
 import org.springframework.boot.web.servlet.FilterRegistrationBean
 import org.springframework.context.annotation.Bean
-import org.springframework.context.annotation.Configuration
 import org.springframework.core.Ordered
 import org.springframework.web.cors.UrlBasedCorsConfigurationSource
 import org.springframework.web.filter.CorsFilter
 
-@Configuration
+@AutoConfiguration
 @EnableConfigurationProperties(CORSProperties::class)
 class CORSAutoConfiguration(
     private val corsProperties: CORSProperties
