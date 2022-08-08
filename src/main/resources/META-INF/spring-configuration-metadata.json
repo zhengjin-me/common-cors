@@ -1,0 +1,9 @@
+{
+  "properties": [
+    {
+      "name": "customize.common.cors.configs",
+      "type": "java.util.ArrayList<me.zhengjin.common.cors.autoconfig.CORSProperties.CORSConfig>",
+      "sourceType": "me.zhengjin.common.cors.autoconfig.CORSProperties"
+    }
+  ]
+}
