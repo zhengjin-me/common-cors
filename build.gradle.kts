@@ -85,7 +85,7 @@ publishing {
             pom {
                 name.set(project.name)
                 description.set(project.name)
-                url.set("https://github.com/zhengjin-me/common-core")
+                url.set("https://github.com/zhengjin-me/common-cors")
                 licenses {
                     license {
                         name.set("MIT License")
@@ -100,7 +100,7 @@ publishing {
                     }
                 }
                 scm {
-                    url.set("https://github.com/zhengjin-me/common-core")
+                    url.set("https://github.com/zhengjin-me/common-cors")
                 }
                 versionMapping {
                     usage("java-api") {
