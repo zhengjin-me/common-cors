@@ -6,7 +6,7 @@
 
 ```
 dependencies {
-    implementation "me.zhengjin:common-core:version"
+    implementation "me.zhengjin:common-cors:version"
 }
 ```
 
